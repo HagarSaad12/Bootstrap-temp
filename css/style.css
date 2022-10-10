@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header nav{
+    z-index:1;
+    top:0;
+}
+body{
+    height: 6500px;
+}
+pre{
+    display:block;
+    font-size: 18px important;
+}
+hr {
+    margin: 1rem 0;
+    color: grey;
+    background-color: gray;
+    border: 0;
+    opacity: .25;
+}
+.fixed-img , .fixed-img2{
+    background-image: url(../images/head-img2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 250px;
+}
+.bg-dark{
+    opacity: 1;
+}
+.img3{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
